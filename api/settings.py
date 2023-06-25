@@ -160,21 +160,6 @@ USE_TZ = True
 
 
 
-# CELERY_BROKER_URL = "redis://localhost:6379/1"
-# CELERY_RESULT_BACKEND = "redis://localhost:6379/1"
-
-
-
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'send.one.com'
-# EMAIL_HOST_USER = 'usman@gmail.com'
-# DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-# EMAIL_HOST_PASSWORD = 'usman123'
-# EMAIL_PORT = 465
-# EMAIL_USE_SSL = True
-# EMAIL_USE_TLS = False
-
-
 
 
 # Static files (CSS, JavaScript, Images)

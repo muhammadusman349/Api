@@ -120,7 +120,7 @@ class ForgetPasswordSerializer(serializers.Serializer):
                 otp_obj.otp = otp
                 otp_obj.save()
             except Exception as e:
-                print("Exception", e)
+                print("Exception", e) 
                 raise serializers.ValidationError(
                     {"email": "Valid email is Required"})
         else:
